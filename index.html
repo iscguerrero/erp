@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/logo.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="128x128"
+      href="assets/img/logo.png"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Inicio</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/paper-dashboard.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome4.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="assets/css/Chart.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="assets/css/demo.css" />
+  </head>
+
+  <body class="sidebar-mini">
+    <div class="wrapper">
+      <div
+        class="sidebar"
+        data-background-color="brown"
+        data-active-color="danger"
+      >
+        <div class="logo">
+          <a href="index.html" class="simple-text logo-mini">S</a>
+          <a href="index.html" class="simple-text logo-normal">ERP</a>
+        </div>
+        <div class="sidebar-wrapper">
+          <ul class="nav">
+            <li>
+              <a href="index.html">
+                <i class="fa fa-pie-chart"></i>
+                <p>Panel de Inicio</p>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="collapse" href="#collapseNomina">
+                <i class="fa fa-users"></i>
+                <p>
+                  Nómina
+                  <b class="caret"></b>
+                </p>
+              </a>
+              <div class="collapse" id="collapseNomina">
+                <ul class="nav">
+                  <li>
+                    <a href="nomina-empleados.html">
+                      <span class="sidebar-mini">e</span>
+                      <span class="sidebar-normal">Empleados</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="nomina-control-de-asistencia.html">
+                      <span class="sidebar-mini">ca</span>
+                      <span class="sidebar-normal">Control de Asistencia</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="nomina-calculo-de-nomina.html">
+                      <span class="sidebar-mini">cn</span>
+                      <span class="sidebar-normal">Cálculo de Nómina</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="nomina-informes.html">
+                      <span class="sidebar-mini">i</span>
+                      <span class="sidebar-normal">Informes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a data-toggle="collapse" href="#collapseContabilidad">
+                <i class="fa fa-book"></i>
+                <p>
+                  Contabilidad
+                  <b class="caret"></b>
+                </p>
+              </a>
+              <div class="collapse" id="collapseContabilidad">
+                <ul class="nav">
+                  <li>
+                    <a href="contabilidad-clientes.html">
+                      <span class="sidebar-mini">c</span>
+                      <span class="sidebar-normal">Clientes</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contabilidad-proveedores.html">
+                      <span class="sidebar-mini">p</span>
+                      <span class="sidebar-normal">Proveedores</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contabilidad-contabilidad.html">
+                      <span class="sidebar-mini">c</span>
+                      <span class="sidebar-normal">Contabilidad</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contabilidad-informes.html">
+                      <span class="sidebar-mini">i</span>
+                      <span class="sidebar-normal">Informes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a data-toggle="collapse" href="#collapseVentas">
+                <i class="fa fa-money"></i>
+                <p>
+                  Ventas
+                  <b class="caret"></b>
+                </p>
+              </a>
+              <div class="collapse" id="collapseVentas">
+                <ul class="nav">
+                  <li>
+                    <a href="ventas-pedidos.html">
+                      <span class="sidebar-mini">p</span>
+                      <span class="sidebar-normal">Pedidos</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ventas-productos.html">
+                      <span class="sidebar-mini">p</span>
+                      <span class="sidebar-normal">Productos</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ventas-informes.html">
+                      <span class="sidebar-mini">i</span>
+                      <span class="sidebar-normal">Informes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a data-toggle="collapse" href="#collapseInventarios">
+                <i class="fa fa-archive"></i>
+                <p>
+                  Inventarios
+                  <b class="caret"></b>
+                </p>
+              </a>
+              <div class="collapse" id="collapseInventarios">
+                <ul class="nav">
+                  <li>
+                    <a href="inventarios-informacion-general.html">
+                      <span class="sidebar-mini">ig</span>
+                      <span class="sidebar-normal">Información general</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="inventarios-operaciones.html">
+                      <span class="sidebar-mini">o</span>
+                      <span class="sidebar-normal">Operaciones</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="inventario-datos-principales.html">
+                      <span class="sidebar-mini">dp</span>
+                      <span class="sidebar-normal">Datos Principales</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="inventario-informes.html">
+                      <span class="sidebar-mini">i</span>
+                      <span class="sidebar-normal">Informes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a data-toggle="collapse" href="#collapseProduccion">
+                <i class="fa fa-gear"></i>
+                <p>
+                  Producción
+                  <b class="caret"></b>
+                </p>
+              </a>
+              <div class="collapse" id="collapseProduccion">
+                <ul class="nav">
+                  <li>
+                    <a href="produccion-planificacion.html">
+                      <span class="sidebar-mini">p</span>
+                      <span class="sidebar-normal">Planificación</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="inventarios-operaciones.html">
+                      <span class="sidebar-mini">o</span>
+                      <span class="sidebar-normal">Operaciones</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a data-toggle="collapse" href="#collapseCompras">
+                <i class="fa fa-credit-card"></i>
+                <p>
+                  Compras
+                  <b class="caret"></b>
+                </p>
+              </a>
+              <div class="collapse" id="collapseCompras">
+                <ul class="nav">
+                  <li>
+                    <a href="compras-pedidos.html">
+                      <span class="sidebar-mini">p</span>
+                      <span class="sidebar-normal">Pedidos</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="compras-productos.html">
+                      <span class="sidebar-mini">pr</span>
+                      <span class="sidebar-normal">Productos</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="compras-informes.html">
+                      <span class="sidebar-mini">i</span>
+                      <span class="sidebar-normal">Informes</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-panel">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-minimize">
+              <button id="minimizeSidebar" class="btn btn-fill btn-icon">
+                <i class="ti-more-alt"></i>
+              </button>
+            </div>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar bar1"></span>
+                <span class="icon-bar bar2"></span>
+                <span class="icon-bar bar3"></span>
+              </button>
+              <a class="navbar-brand" href="#Dashboard">
+                Inicio
+              </a>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a
+                    href="#notifications"
+                    class="dropdown-toggle btn-rotate"
+                    data-toggle="dropdown"
+                  >
+                    <i class="ti-settings"></i>
+                    <span class="hidden-xs hidden-sm notification">Perfil</span>
+                    <p class="hidden-md hidden-lg">
+                      Perfil<b class="caret"></b>
+                    </p>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="login.html"
+                        ><i class="fa fa-sign-out"></i> Salir</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-offset-0 col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <div class="icon-big icon-success text-center">
+                          <i class="ti-export"></i>
+                        </div>
+                      </div>
+                      <div class="col-xs-8">
+                        <div class="numbers">
+                          <p>Ventas</p>
+                          <font id="ventas"></font>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <hr />
+                    <div class="stats">
+                      <i class="ti-package"></i>
+                      <font id="piezasVentas"></font> artículos
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-offset-0 col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <div class="icon-big icon-danger text-center">
+                          <i class="ti-import"></i>
+                        </div>
+                      </div>
+                      <div class="col-xs-8">
+                        <div class="numbers">
+                          <p>Devoluciones</p>
+                          <font id="devoluciones"></font>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <hr />
+                    <div class="stats">
+                      <i class="ti-package"></i>
+                      <font id="piezasDevoluciones"></font> artículos
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-offset-0 col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <div class="icon-big icon-warning text-center">
+                          <i class="ti-wallet"></i>
+                        </div>
+                      </div>
+                      <div class="col-xs-8">
+                        <div class="numbers">
+                          <p>Gastos</p>
+                          <font id="gastos"></font>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <hr />
+                    <div class="stats">
+                      <i class="ti-package"></i>
+                      <font id="piezasGastos"></font> gastos
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-offset-0 col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <div class="icon-big icon-info text-center">
+                          <i class="ti-shopping-cart-full"></i>
+                        </div>
+                      </div>
+                      <div class="col-xs-8">
+                        <div class="numbers">
+                          <p>Ingresos</p>
+                          <font id="ingresos"></font>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <hr />
+                    <div class="stats">
+                      <i class="ti-package"></i>
+                      <font id="piezasIngresos"></font> artículos
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-content">
+                <div class="numbers pull-left">
+                  <font id="totalVentasDia"></font>
+                </div>
+                <div class="pull-right">
+                  <span class="label label-success">
+                    <font id="piezasVentaDia"></font> artículos
+                  </span>
+                </div>
+                <h6 class="big-title">
+                  <span class="text-muted">Ventas por Hora en el Día</span>
+                </h6>
+                <div id="container" style="width: 100%;">
+                  <canvas id="canva-uno"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="numbers pull-left">
+                  <font id="totalVentasMes"></font>
+                </div>
+                <div class="pull-right">
+                  <span class="label label-success">
+                    <font id="piezasVentaMes"></font> artículos
+                  </span>
+                </div>
+                <h6 class="big-title">
+                  <span class="text-muted">Ventas diarías del mes de</span>
+                </h6>
+                <div id="container" style="width: 100%;">
+                  <canvas id="canva-dos"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="numbers pull-left">
+                  <font id="totalVentasAnio"></font>
+                </div>
+                <div class="pull-right">
+                  <span class="label label-success">
+                    <font id="piezasVentaAnio"></font> artículos
+                  </span>
+                </div>
+                <h6 class="big-title">
+                  <span class="text-muted"
+                    >Ventas mensuales del año
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                  </span>
+                </h6>
+                <div id="container" style="width: 100%;">
+                  <canvas id="canva-tres"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="copyright pull-right">
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              <i class="fa fa-heart heart"></i>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+  <script
+    type="text/javascript"
+    src="assets/js/perfect-scrollbar.min.js"
+  ></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script
+    type="text/javascript"
+    src="assets/js/es6-promise-auto.min.js"
+  ></script>
+  <script type="text/javascript" src="assets/js/moment.min.js"></script>
+  <script type="text/javascript" src="assets/js/locale-es.js"></script>
+  <script
+    type="text/javascript"
+    src="assets/js/bootstrap-switch-tags.js"
+  ></script>
+  <script type="text/javascript" src="assets/js/bootstrap-notify.js"></script>
+  <script type="text/javascript" src="assets/js/sweetalert2.js"></script>
+  <script
+    type="text/javascript"
+    src="assets/js/bootstrap-selectpicker.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/js/bootstrap-datetimepicker.js"
+  ></script>
+  <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="assets/js/paper-dashboard.js"></script>
+
+  <!--script src="assets/js/raphael-min.js"></script>
+<script src="assets/js/morris.min.js"></script-->
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/Chart.min.js"></script>
+  <script src="js/index.js"></script>
+</html>
